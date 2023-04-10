@@ -96,31 +96,31 @@
     },
     "AntiBot": {
       "state": true,
-      "keybind": 0,
+      "keybind": 48,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
         "Tab": true,
         "TabMode": "Contains",
-        "EntityID": true,
+        "EntityID": false,
         "Color": false,
         "LivingTime": false,
         "LivingTimeTicks": 40,
-        "Ground": true,
+        "Ground": false,
         "Air": false,
-        "InvalidGround": true,
+        "InvalidGround": false,
         "Swing": false,
         "Health": false,
-        "Derp": true,
+        "Derp": false,
         "WasInvisible": false,
-        "ValidName": true,
+        "ValidName": false,
         "HiddenName": false,
         "Armor": false,
         "Ping": false,
         "NeedHit": false,
         "NoClip": false,
-        "CzechMatrix": false,
+        "CzechMatrix": true,
         "PingCheck": true,
         "GamemodeCheck": true,
         "ReusedEntityId": false,
@@ -132,8 +132,8 @@
         "FastDamageTicks": 5,
         "RemoveFromWorld": false,
         "Remove-Interval": 20,
-        "Debug": false,
-        "AlwaysInRadius": false,
+        "Debug": true,
+        "AlwaysInRadius": true,
         "AlwaysInRadiusBlocks": 20.0,
         "AlwaysInRadiusRemove": false,
         "AlwaysInRadiusWithTicksCheck": false
@@ -159,7 +159,7 @@
       }
     },
     "AntiStaff": {
-      "state": true,
+      "state": false,
       "keybind": 38,
       "array": true,
       "autodisable": "NONE",
@@ -226,25 +226,25 @@
       }
     },
     "AutoBot": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "AutoSoup": true,
+        "AutoSoup": false,
         "AutoPot": true,
-        "AutoBow": true,
-        "AntiFireBall": true,
+        "AutoBow": false,
+        "AntiFireBall": false,
         "Health": 15.0,
         "Delay": 150,
         "OpenInv": false,
         "SimulateInventory": true,
         "Bowl": "Drop",
         "AutoPot-ThrowMode": "Down",
-        "AutoPot-Health": 15.0,
+        "AutoPot-Health": 10.5,
         "AutoPot-Delay": 500,
-        "AutoPot-ThrowTick": 3,
+        "AutoPot-ThrowTick": 4,
         "AutoPot-SelectSlot": -1,
         "AutoPot-GroundDistance": 2.0,
         "AutoPot-ThrowAngle": -45,
@@ -252,8 +252,8 @@
         "AutoPot-SimulateInventory": true,
         "AutoPot-Regen": true,
         "AutoPot-Utility": true,
-        "AutoPot-NotCombat": true,
-        "AutoPot-OnGround": true,
+        "AutoPot-NotCombat": false,
+        "AutoPot-OnGround": false,
         "AutoBow-WaitForBowAimBot": true,
         "AntiFireBall-Swing": "Normal",
         "AntiFireBall-Rotation": true
@@ -293,7 +293,7 @@
       }
     },
     "AutoLogin": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -537,7 +537,7 @@
       }
     },
     "CameraClip": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -551,7 +551,7 @@
       "values": {}
     },
     "Chams": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -588,7 +588,7 @@
       }
     },
     "ChatEnhance": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -678,7 +678,7 @@
       }
     },
     "ClientSpoof": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -701,13 +701,13 @@
       }
     },
     "Criticals": {
-      "state": false,
-      "keybind": 0,
+      "state": true,
+      "keybind": 47,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "BlocksMC",
+        "Mode": "VerusSmart",
         "Delay": 0,
         "FlagPause": true,
         "FlagPause-Time": 100,
@@ -935,7 +935,7 @@
     },
     "Eagle": {
       "state": false,
-      "keybind": 0,
+      "keybind": 23,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -1187,7 +1187,7 @@
     },
     "Fucker": {
       "state": false,
-      "keybind": 0,
+      "keybind": 50,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -1202,8 +1202,8 @@
         "Instant": false,
         "SwitchDelay": 250,
         "Rotations": true,
-        "Surroundings": true,
-        "NoHit": false,
+        "Surroundings": false,
+        "NoHit": true,
         "Cooldown-Seconds": 15,
         "ResetCoolDownWhenToggled": false,
         "ResetOnWorldChange": false
@@ -1332,7 +1332,7 @@
       }
     },
     "HealthWarn": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": false,
       "autodisable": "NONE",
@@ -1468,7 +1468,7 @@
       }
     },
     "InvManager": {
-      "state": false,
+      "state": true,
       "keybind": 35,
       "array": true,
       "autodisable": "NONE",
@@ -1499,11 +1499,11 @@
         "SortSlot-2": "Gapple",
         "SortSlot-3": "Block",
         "SortSlot-4": "Food",
-        "SortSlot-5": "Axe",
-        "SortSlot-6": "None",
-        "SortSlot-7": "Block",
-        "SortSlot-8": "Pearl",
-        "SortSlot-9": "Pearl"
+        "SortSlot-5": "Potion",
+        "SortSlot-6": "Potion",
+        "SortSlot-7": "Potion",
+        "SortSlot-8": "Potion",
+        "SortSlot-9": "Potion"
       }
     },
     "InventoryMove": {
@@ -1627,37 +1627,37 @@
         "BlinkCheck": true,
         "NoScaffold": true,
         "NoFly": true,
-        "Swing": "Normal",
+        "Swing": "Packet",
         "AttackTiming": "All",
-        "KeepSprint": true,
-        "NoBadPackets": false,
+        "KeepSprint": false,
+        "NoBadPackets": true,
         "AutoBlock": "Range",
         "AutoBlockRange": 3.2,
         "BlockTiming": "Pre",
-        "AutoBlockPacket": "Vanilla",
+        "AutoBlockPacket": "AfterTick",
         "InteractAutoBlock": false,
         "BlockRate": 100,
         "AlwaysRenderBlocking": true,
         "RayCast": true,
-        "RaycastOnlyTarget": false,
+        "RaycastOnlyTarget": true,
         "Rotation Options:": true,
-        "Priority": "Armor",
-        "TargetMode": "Switch",
+        "Priority": "Distance",
+        "TargetMode": "Single",
         "SwitchDelay": 300,
         "LimitedMultiTargets": 0,
-        "RotationMode": "ForceCenter",
-        "SilentRotation": true,
+        "RotationMode": "Test",
+        "SilentRotation": false,
         "AlwaysHitAble": true,
-        "FOV": 180.0,
-        "MaxTurnSpeed": 55.0,
-        "MinTurnSpeed": 45.0,
+        "FOV": 31.86,
+        "MaxTurnSpeed": 29.59,
+        "MinTurnSpeed": 1.0,
         "SmoothMode": "Custom",
         "CustomSmooth": 1.0,
         "RandomCenter": "Off",
-        "RandomRange": 0.0,
+        "RandomRange": 0.27,
         "RotationReverse": false,
         "RotationReverseTick": 5,
-        "KeepDirection": true,
+        "KeepDirection": false,
         "KeepDirectionTick": 15,
         "RotationDelay": false,
         "RotationDelayMS": 300,
@@ -1669,7 +1669,7 @@
         "MinPredictPlayerSize": 1.0,
         "Bypass Options:": true,
         "Strafe": "Off",
-        "FailRate": 0.0,
+        "FailRate": 15.04,
         "FakeSwing": true,
         "NoInvAttack": "Off",
         "NoInvDelay": 200,
@@ -1773,7 +1773,7 @@
       "values": {}
     },
     "NameProtect": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -1826,7 +1826,7 @@
       }
     },
     "NoAchievements": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": false,
       "autodisable": "NONE",
@@ -2186,7 +2186,7 @@
       }
     },
     "PingSpoof": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -2356,7 +2356,7 @@
     },
     "Scaffold": {
       "state": false,
-      "keybind": 16,
+      "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -2493,7 +2493,7 @@
     },
     "Spammer": {
       "state": false,
-      "keybind": 50,
+      "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -2508,12 +2508,12 @@
     },
     "Speed": {
       "state": false,
-      "keybind": 47,
+      "keybind": 49,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "VerusHop",
+        "Mode": "Legit",
         "NoWater": true,
         "Debug": false,
         "alwaysSprint": true,
@@ -2632,10 +2632,10 @@
       "values": {
         "UseItem": false,
         "UseItemOnlySword": false,
-        "Hungry": true,
+        "Hungry": false,
         "Sneak": false,
         "Collide": false,
-        "JumpDirections": true,
+        "JumpDirections": false,
         "AllDirections": false,
         "AllDirectionsBypass": "None",
         "AllDirectionsLimitSpeedOnlyGround": false,
@@ -2700,7 +2700,7 @@
     },
     "Strafe": {
       "state": false,
-      "keybind": 47,
+      "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -2751,7 +2751,7 @@
       "values": {
         "Player": true,
         "Animal": false,
-        "Mob": false,
+        "Mob": true,
         "Invisible": false,
         "Dead": false
       }
@@ -2775,7 +2775,7 @@
     },
     "Teams": {
       "state": false,
-      "keybind": 0,
+      "keybind": 33,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -2878,7 +2878,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Simple",
+        "Mode": "MatrixSimple",
         "Horizontal": 0.08,
         "Vertical": 0.08,
         "Chance": 100,
