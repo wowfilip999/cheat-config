@@ -2821,13 +2821,13 @@
       }
     },
     "Step": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Vulcan",
+        "Mode": "NCPNew",
         "Height": 2.88,
         "JumpMotion": 0.42,
         "Delay": 0,
