@@ -1,16 +1,4 @@
 {
-  "macros": {
-    "macros": [
-      {
-        "key": 45,
-        "command": ".bind timer n"
-      },
-      {
-        "key": 21,
-        "command": ".speed mode VulcanYPort"
-      }
-    ]
-  },
   "modules": {
     "Aimbot": {
       "state": false,
@@ -104,7 +92,7 @@
       }
     },
     "AntiBot": {
-      "state": false,
+      "state": true,
       "keybind": 48,
       "array": true,
       "autodisable": "NONE",
@@ -1489,7 +1477,7 @@
       "values": {}
     },
     "Insult": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -1879,7 +1867,7 @@
       "values": {}
     },
     "NameProtect": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -2821,7 +2809,7 @@
       }
     },
     "Step": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -3112,5 +3100,17 @@
       "trigger": "TOGGLE",
       "values": {}
     }
+  },
+  "macros": {
+    "macros": [
+      {
+        "key": 45,
+        "command": ".bind timer n"
+      },
+      {
+        "key": 21,
+        "command": ".speed mode VulcanYPort"
+      }
+    ]
   }
 }
