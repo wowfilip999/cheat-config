@@ -454,7 +454,7 @@
       }
     },
     "BowAimbot": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -1210,7 +1210,7 @@
       }
     },
     "Gapple": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -1419,7 +1419,7 @@
       "keybind": 0,
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Vanilla",
+        "Mode": "Cancel",
         "R": 255,
         "G": 0,
         "B": 0,
@@ -2863,7 +2863,7 @@
       }
     },
     "SuperKnockback": {
-      "state": false,
+      "state": true,
       "keybind": 33,
       "array": true,
       "autodisable": "NONE",
@@ -3003,7 +3003,7 @@
       }
     },
     "TrueSight": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
