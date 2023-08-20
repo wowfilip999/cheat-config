@@ -379,7 +379,7 @@
       }
     },
     "BlockESP": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -387,7 +387,7 @@
       "values": {
         "Mode": "Box",
         "Outline-Width": 3.0,
-        "Block": 168,
+        "Block": 26,
         "Radius": 40,
         "R": 255,
         "G": 179,
@@ -845,7 +845,7 @@
       }
     },
     "DiscordRPC": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
