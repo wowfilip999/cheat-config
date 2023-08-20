@@ -92,7 +92,7 @@
       }
     },
     "AntiBot": {
-      "state": false,
+      "state": true,
       "keybind": 48,
       "array": true,
       "autodisable": "NONE",
@@ -113,7 +113,7 @@
         "WasInvisible": false,
         "ValidName": false,
         "HiddenName": false,
-        "Armor": false,
+        "Armor": true,
         "Ping": false,
         "NeedHit": false,
         "NoClip": false,
@@ -1033,7 +1033,7 @@
     },
     "Fly": {
       "state": false,
-      "keybind": 34,
+      "keybind": 0,
       "array": true,
       "autodisable": "FLAG",
       "trigger": "TOGGLE",
@@ -1186,7 +1186,7 @@
       "values": {}
     },
     "Fucker": {
-      "state": true,
+      "state": false,
       "keybind": 50,
       "array": true,
       "autodisable": "NONE",
@@ -1252,7 +1252,7 @@
     },
     "Glide": {
       "state": false,
-      "keybind": 36,
+      "keybind": 0,
       "array": true,
       "autodisable": "FLAG",
       "trigger": "TOGGLE",
@@ -1784,7 +1784,7 @@
     },
     "LongJump": {
       "state": false,
-      "keybind": 38,
+      "keybind": 0,
       "array": true,
       "autodisable": "FLAG",
       "trigger": "TOGGLE",
@@ -2916,7 +2916,7 @@
     },
     "Teams": {
       "state": true,
-      "keybind": 0,
+      "keybind": 38,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -3102,15 +3102,6 @@
     }
   },
   "macros": {
-    "macros": [
-      {
-        "key": 45,
-        "command": ".bind timer n"
-      },
-      {
-        "key": 21,
-        "command": ".speed mode VulcanYPort"
-      }
-    ]
+    "macros": []
   }
 }
