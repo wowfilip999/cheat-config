@@ -3297,7 +3297,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "BreakDamage",
@@ -3339,7 +3339,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "Mode",
@@ -4191,23 +4191,23 @@
         {
           "name": "Targets",
           "value": [
-            "minecraft:light_blue_bed",
-            "minecraft:yellow_bed",
-            "minecraft:orange_bed",
-            "minecraft:lime_bed",
-            "minecraft:black_bed",
             "minecraft:blue_bed",
-            "minecraft:pink_bed",
+            "minecraft:yellow_bed",
+            "minecraft:light_gray_bed",
+            "minecraft:purple_bed",
+            "minecraft:black_bed",
+            "minecraft:white_bed",
+            "minecraft:gray_bed",
+            "minecraft:light_blue_bed",
+            "minecraft:cyan_bed",
+            "minecraft:red_bed",
+            "minecraft:brown_bed",
+            "minecraft:orange_bed",
             "minecraft:magenta_bed",
             "minecraft:green_bed",
-            "minecraft:dragon_egg",
-            "minecraft:gray_bed",
-            "minecraft:brown_bed",
-            "minecraft:purple_bed",
-            "minecraft:light_gray_bed",
-            "minecraft:white_bed",
-            "minecraft:red_bed",
-            "minecraft:cyan_bed"
+            "minecraft:lime_bed",
+            "minecraft:pink_bed",
+            "minecraft:dragon_egg"
           ]
         },
         {
@@ -4376,8 +4376,8 @@
           "name": "TargetedBlocks",
           "value": [
             "minecraft:chest",
-            "minecraft:ender_chest",
-            "minecraft:trapped_chest"
+            "minecraft:trapped_chest",
+            "minecraft:ender_chest"
           ]
         }
       ]
@@ -4765,7 +4765,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -8157,9 +8157,9 @@
       ]
     }
   ],
-  "author": "IssacYost88",
+  "author": "DollyPfannersti",
   "date": "22/04/2024",
-  "time": "17:07:20",
+  "time": "17:30:54",
   "clientVersion": "0.4.0",
   "clientCommit": "git-0388ceb",
   "serverAddress": "mineland.me",
